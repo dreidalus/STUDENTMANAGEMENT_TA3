@@ -1,60 +1,29 @@
-# CodeIgniter 4 Framework
+Student Management System - Handles student information, Courses Information, Attendance Records, Students' Grades, and a working dashboard for tracking numbers of students and available courses.
 
-## What is CodeIgniter?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Setup and Installation
+Live - InfinityFree
+Step 1: Download Project File
+Step 2: Move contents of public/ outside to the root folder.
+Step 3: Login/Sign Up in InfinityFree
+Step 4: Create InfinityFree Account
+Step 5: Configure site name and other information.
+Step 6: Create account
+Step 7: Upload your Project File
+Step 8: Import your SQL database and configure database.php based on the configurations given by InfinityFree.
+Step 9: System deployed.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Localhost
+Step 1: Download Project File
+Step 2: Open in VS Code
+Step 3: Create your database and configure database.php accordingly.
+Step 4: run "php spark serve" in vs code terminal.
+Step 5: System should be running normally.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Default Admin Credentials
+InfinityFree - username: Admin123 || password: WeGoWeGo00
+Localhost - username: Admin@gmail.com || password: RenzoGwapo00
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Features and technologies used:
+Dashboard and Image upload
+CSS - Bootstrap 5, and JS.
