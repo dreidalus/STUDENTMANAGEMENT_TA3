@@ -27,3 +27,6 @@ Localhost - username: Admin@gmail.com || password: RenzoGwapo00
 Features and technologies used:
 Dashboard and Image upload
 CSS - Bootstrap 5, and JS.
+
+InfinityFree site link:
+https://student-management-system.infinityfreeapp.com/
